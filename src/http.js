@@ -27,7 +27,7 @@ export async function getMetrics() {
   console.log(text);
 
   if (!response.ok) {
-    throw new Error("Failed to fetch time.");
+    throw new Error("Failed to fetch metrics.");
   }
 
   return text;

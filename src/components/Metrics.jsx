@@ -33,7 +33,7 @@ export default function Metrics() {
     <>
       <p className="text-5xl text-center font-semibold mb-6">Metrics</p>
       {error && !fetching && (
-        <p className="text-red-500">
+        <p className="text-red-500 text-center">
           Error: {error.message}
           <br />
           Displayed metrics may be incorrect.
